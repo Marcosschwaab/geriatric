@@ -1,0 +1,18 @@
+{
+  "name": "geriatric",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "framer-motion": "^4.1.17",
+    "nodemailer": "^6.10.0"
+  }
+}
