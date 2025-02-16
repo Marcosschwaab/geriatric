@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.21.2",
     "framer-motion": "^4.1.17",
+    "motion": "^12.4.3",
     "nodemailer": "^6.10.0"
   }
 }

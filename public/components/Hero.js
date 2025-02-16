@@ -4,7 +4,7 @@ const Hero = () => {
 
   return (
 
-    <section className="w-full py-2 md:py-24 lg:py-32 xl:py-38 bg-gradient-to-r from-blue-50 to-purple-300 ">
+    <section className="w-full pt-24 pb-12 md:py-24 lg:py-32 xl:py-38 bg-gradient-to-r from-blue-50 to-purple-300">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="grid gap-10 lg:grid-cols-3 lg:gap-12 items-center">
           <motion.div
@@ -37,8 +37,8 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-purple-100/20 rounded-2xl transform rotate-2" />
-            <div className="absolute inset-0 bg-gradient-to-l from-blue-100/20 to-purple-100/20 rounded-2xl transform -rotate-2" />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-purple-100/30 rounded-2xl transform rotate-2" />
+            <div className="absolute inset-0 bg-gradient-to-l from-blue-100/20 to-purple-100/30 rounded-2xl transform -rotate-2" />
             <img
               src="./images/medica2.png?height=200&width=400"
               alt="Caring medical professional with elderly patient"
